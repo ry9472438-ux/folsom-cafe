@@ -1,0 +1,41 @@
+export const menuSections = [
+['Hot Coffee',[['Americano — Single',185],['Americano — Double',205],['Espresso — Single',160],['Espresso — Double',180],['Cafe Latte',225],['Cappuccino',225],['Flavour Latte / Cappuccino',235],['Cafe Mocha',220],['Caramel Macchiato',220],['Latte Macchiato',220],['Black Honey',225],['Coffee Honey Lemon',225],['Espresso Affogato',260]]],
+['Ice Coffee',[['Ice Coffee',245],['Ice Mocha',235],['Ice Blended Mocha',245],['Ice Cappuccino',235],['Ice Americano',205],['Ice Caramel Macchiato',245]]],
+['Hot Beverages',[['Hot Chocolate',245],['Hot Lemon',90],['Hot Lemon With Honey',150],['Black Tea / Green Tea',65],['Milk Tea',85]]],
+['Beer',[['Tuborg Gold',590],['Carlsberg',625],['Barasinghe',570],['Gorkha Strong',495]]],
+['Domestic Spirits',[['Old Durbar Gold — 60ml',335],['Old Durbar Gold — 180ml',980],['Old Durbar Black — 60ml',440],['Old Durbar Black — 180ml',1335],['Signature Red — 60ml',305],['Signature Red — 180ml',900],['Khukuri Rum — 60ml',260],['Khukuri Rum — 180ml',750],['8848 — price to confirm',null]]],
+['Single Malt',[['Glenfiddich — 60ml',875],['Glenfiddich — 180ml',2605],['Glenlivet — price to confirm',null]]],
+['Wine',[['Robert — Red / White',2850],['J.P. Cenet — White / Red',2850],['Big Master — Red / White',1100],['Taqurila',650],['Suza Silver / Gold — price to confirm',null]]],
+['Crunchy Fried Chicken',[['Crunchy Fried Chicken — 1 Pc',75],['Crunchy Fried Chicken — 2 Pcs',160],['Crunchy Fried Chicken — 4 Pcs',275],['Crunchy Fried Chicken — 8 Pcs',410],['Hot Wings',445],['Chicken Roast',445],['Chicken Sausage',380],['Chicken Popcorn',380]]],
+['Noodles',[['Veg Noodles',220],['Chicken Noodles',420],['Mix Noodles',800],['Egg Noodles',195],['Singapore Noodles — Veg',230],['Singapore Noodles — Non-Veg',275]]],
+['Sandwiches',[['Veg Sandwich',195],['Chicken Sandwich',225],['Club Sandwich',280],['Cheese Sandwich',205]]],
+['Burgers',[['Chicken Burger With Cheese / Fried',240],['Crunchy Chicken Burger',310],['Grilled Chicken Burger',310],['Veg Burger',210]]],
+['Pizza',[['Veg Hawaiian Pizza',480],['Mix Veg Pizza',510],['Mushroom Pizza',480],['Paneer Pizza',495],['Cheese Pizza',450],['Chicken Pizza',480],['Non-Veg Mix Pizza',525]]],
+['Soup',[['Hot & Sour Veg',245],['Hot & Sour Non-Veg',280],['Manchow Soup — Veg',250],['Manchow Soup — Non-Veg',280],['Sweet Corn Soup',250]]],
+['Veg Snacks',[['Veg Pakauda',245],['Mustang Aloo',265],['French Fry',215],['Chips Chilly',270],['Mushroom Jeera',325],['Mushroom Choila',365],['Sweet Corn Fried',280],['Sweet Corn Boil',225],['Peanuts Sadheko',245],['Wai Wai Sandeko',150],['Mix Bhuja',190],['Mushroom Duplex',395],['Cheese Ball',345],['Dry Papad — 2 Pcs',125],['Masala Papad — 2 Pcs',165],['Kaju Fry',350],['Paneer Pakauda',425],['Paneer Chilly',450],['Panjavi Paneer Pakauda',495],['Paneer Papdi',495],['Hara Bhara Kebab',375]]],
+['Non-Veg Snacks',[['Chicken Chilly',425],['Dragon Chicken',445],['Schezwan Chicken',455],['Garlic Chicken',445],['Spicy Chicken Wings',445],['Chicken Drumstick',425],['Chicken Lolipop',465],['Chicken Choila',465],['Chicken Sekuwa',510],['Chicken Taas',545],['Chicken Boil',410],['Chicken Sadheko',435],['Chicken Sausage Chilly',335],['Timur Chicken Sizzling',595],['Mutton Sekuwa',645],['Mutton Taas',655],['Mutton Choila',610],['Mutton Pakku',610],['Mutton Boil',580]]],
+['Tandoori Snacks',[['Chicken Tandoori — Half',625],['Chicken Tandoori — Full',1195],['Chicken Tikka',510],['Chicken Malai Tikka',545],['Chicken Seekh Kebab',525],['Chicken Tandoori Platter',1200],['Chicken Reshmi Kebab',625],['Mutton Seekh Kebab',695],['Paneer Tikka',525],['Paneer Malai Tikka',560],['Stuffed Mushroom',410],['Mushroom Tikka',445],['Stuff Tandoori Aloo',345]]],
+['Veg Curry',[['Aloo Gobi',345],['Mix Veg Curry',375],['Paneer Butter Masala',495],['Paneer Kadai',465],['Paneer Do Piaza',465],['Palak Paneer — price to confirm',null],['Mushroom Butter Masala',495],['Mutter Paneer',480]]],
+['Non-Veg Curry',[['Chicken Curry',445],['Chicken Butter Masala',495],['Chicken Kadhai',465],['Chicken Do Piaza',465],['Chicken Tikka Masala',510],['Mutton Rogan Josh',625],['Mutton Do Piaza',645],['Mutton Kadhai',635],['Mutton Masala',625],['Egg Curry',345],['Fish Curry',450]]],
+['Roti & Naan',[['Tawa Roti',35],['Tandoori Roti',55],['Plain Naan',75],['Butter Naan',95],['Garlic Naan',105],['Chicken Keema Naan',145],['Cheese Naan',120],['Aloo Kulcha',125],['Masala Kulcha',145]]],
+['Dal',[['Dal Fry',225],['Dal Tadka',245],['Dal Makhani',295]]],
+['Khaja & Khana Sets',[['Veg Khaja Set',350],['Chicken Khaja Set',495],['Mutton Khaja Set',550],['Veg Khana Set',395],['Chicken Khana Set',495],['Mutton Khana Set',595],['Fish Khana Set',525]]],
+['Milkshakes',[['Chocolate Milkshake',310],['Vanilla Milkshake',310],['Strawberry Milkshake',310],['Oreo Milkshake',310],['Folsom Special Shake',350]]],
+['Cold Drinks',[['Coke / Fanta / Sprite',95],['Mineral Water',45],['Masala Coke / Sprite',140],['Slice',120],['Real Juice',215],['Red Bull — Blue',350]]],
+['Refreshers',[['Mint Lemonade',150],['Blended Mint Lemonade',215],['Kiwi Mint Lemonade',235],['Blue Mojito',225],['Virgin Mojito',225],['Fresh Lemon Soda',150]]],
+['Ice Tea',[['Peach Ice Tea',225],['Lemon Ice Tea',225]]],
+['Frappe / Blended Special',[['Frappe — price to confirm',null]]],
+['Lassi',[['Sweet Lassi',205],['Banana Lassi',205],['Vanilla Lassi',205],['Strawberry Lassi',250]]],
+['Other Drinks',[['Fruits Punch',475]]],
+['Hukka',[['Any Flavor — price to confirm',null],['Add Coil',50]]]
+].map(([name,items])=>({name,id:name.toLowerCase().replace(/[^a-z0-9]+/g,'-'),items:items.map(([name,price])=>({name,price}))}));
+
+export const topPicks = [
+{name:'Chicken Tandoori Platter',price:1200,image:'https://media.base44.com/images/public/6a83654884985996e6a8cc7e/b18dc1ad4_generated_f03ad4f5.png'},
+{name:'Chicken Sekuwa',price:510,image:'https://media.base44.com/images/public/6a83654884985996e6a8cc7e/2bcb94051_generated_f4eee923.png'},
+{name:'Chicken Taas',price:545,image:'https://media.base44.com/images/public/6a83654884985996e6a8cc7e/90d09e991_generated_fa9fb5e2.png'},
+{name:'Chicken Tikka',price:510,image:'https://media.base44.com/images/public/6a83654884985996e6a8cc7e/3e15de259_generated_82748ba2.png'},
+{name:'Chicken Tandoori — Half',price:625,image:'https://media.base44.com/images/public/6a83654884985996e6a8cc7e/fcd9bbea7_generated_b386c77b.png'},
+{name:'Paneer Tikka',price:525,image:'https://media.base44.com/images/public/6a83654884985996e6a8cc7e/8d376e0fb_generated_adbe350b.png'},
+{name:'Folsom Special Shake',price:350,image:'https://media.base44.com/images/public/6a83654884985996e6a8cc7e/8aa055635_generated_8dca1131.png'}
+];

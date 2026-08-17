@@ -1,0 +1,3 @@
+import { ShoppingBag } from 'lucide-react';
+import { useOrder } from '@/context/OrderContext';
+export default function FloatingOrderBar(){const {items,total,setOpen}=useOrder();if(!items.length)return null;return <button onClick={()=>setOpen(true)} className="fixed bottom-5 left-1/2 z-40 flex w-[calc(100%-2rem)] max-w-lg -translate-x-1/2 items-center justify-between rounded-2xl border border-white/20 bg-[#252525]/90 px-5 py-4 text-left shadow-2xl backdrop-blur-xl"><span className="flex items-center gap-3"><ShoppingBag className="text-[#D4AF37]"/><span><b className="block">View your order</b><small className="text-[#E5E5E1]/50">{items.reduce((s,x)=>s+x.qty,0)} items</small></span></span><b className="text-[#D4AF37]">Rs. {total.toLocaleString()}</b></button>}

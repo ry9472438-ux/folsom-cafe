@@ -1,0 +1,2 @@
+import MenuItemCard from '@/components/MenuItemCard';
+export default function CategorySection({section,index}){return <section id={section.id} className="scroll-mt-40 border-b border-white/10 py-14"><div className="mb-8 flex items-baseline gap-4"><span className="text-xs text-[#D4AF37]">{String(index+1).padStart(2,'0')}</span><h2 className="font-heading text-3xl font-bold sm:text-4xl">{section.name}</h2></div><div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">{section.items.map(item=><MenuItemCard key={item.name} item={item}/>)}</div></section>}
